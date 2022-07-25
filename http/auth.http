@@ -1,0 +1,21 @@
+# Anonymous (кто угодно)
+POST http://127.0.0.1:10001/auth/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "Олег",
+  "password": "dnB4$2KY1Fx%"
+}
+
+###
+
+# Anonymous (кто угодно)
+PUT http://127.0.0.1:10001/auth/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ilx1MDQxMlx1MDQzOFx1MDQzYVx1MDQ0Mlx1MDQzZVx1MDQ0MCIsInJvbGUiOiJ1c2VyIiwiZXhwIjoxNjY4MjQ4MDkwfQ.fCgN40K2W6YYGH8j1p4yOzoHM75J5iFjSJwqty5zfBY"
+}
+
